@@ -1,0 +1,57 @@
+/* Menu Link Styles */
+.menuLink {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    font-size: 4.0652rem;
+    font-weight: 500;
+    overflow: hidden;
+  }
+  
+  .menuText {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .letter {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    transition-delay: calc(var(--index) * 0.05s);
+  }
+  
+  .original {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    color: #E11010;
+    display: inline-block;
+  }
+  
+  .menuLink:hover .original .letter {
+    transform: translateY(-100%);
+  }
+  
+  .menuLink:hover .hover .letter {
+    transform: translateY(-100%);
+  }
+  
+  /* Optional: Add underline animation */
+  .menuLink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #E11010;
+    transition: width 0.3s ease;
+  }
+  
+  .menuLink:hover::after {
+    width: 100%;
+  } 
