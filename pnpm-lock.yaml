@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@types/locomotive-scroll':
-        specifier: ^4.1.4
-        version: 4.1.4
       gsap:
         specifier: ^3.12.7
         version: 3.12.7
@@ -405,9 +402,6 @@ packages:
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
-  '@types/locomotive-scroll@4.1.4':
-    resolution: {integrity: sha512-G8GUr/ML/Ssxxl83VYbtFHMFoPNOQh/glzPWi5Z3Jk7Hng26Sl0ckAV11uq1AGKEq40jFMPhyAIuQ6fGPiBmHQ==}
 
   '@types/node@20.17.27':
     resolution: {integrity: sha512-U58sbKhDrthHlxHRJw7ZLiLDZGmAUOZUbpw0S6nL27sYUdhvgBLCRu/keSd6qcTsfArd1sRFCCBxzWATGr/0UA==}
@@ -1982,8 +1976,6 @@ snapshots:
   '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
-
-  '@types/locomotive-scroll@4.1.4': {}
 
   '@types/node@20.17.27':
     dependencies:
